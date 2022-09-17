@@ -1,3 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+}
+
 body{
   background-color: rgb(18, 2, 32);
+}
+
+body *{
+  font-family: 'Inter', sans-serif;
+  line-height: 160%;
+}
+
+main{
+  max-width: 580px;
+  width: 90%;
+  margin: auto;
+
+  display: grid;
+  gap: 24px;
+}
+
+section{
+  color: white;
+}
+
+section div{
+  background-color: #2A263A;
+  padding: 32px;
+  padding-top: 24px;
+  border-radius: 8px;
+}
+
+section h2{
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: -0.47px;
+}
+
+section p{
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.18px;
+  color: #A1A1AA
+}
+
+section ul{
+  display: flex;
+  gap: 16px;
+
+  margin-top: 24px;
+}
+
+.course-list img {
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.course-list iframe{
+  border-radius: 10px;
+}
+
+.channel-list img{
+  border-radius: 50%;
+  width: 100px;
 }

@@ -52,9 +52,12 @@ section p{
 
 section ul{
   display: flex;
-  gap: 16px;
+  justify-content: space-around;
 
   margin-top: 24px;
+}
+.course-list p{
+  text-align: center;
 }
 
 .course-list img {
@@ -64,6 +67,7 @@ section ul{
 }
 
 .course-list iframe{
+  margin-right: 15px;
   border-radius: 10px;
 }
 
@@ -74,19 +78,42 @@ section ul{
 
 /* Minhas redes*/
 
+footer{
+  color: white;
+}
+
+footer div{
+  padding: 32px;
+  padding-top: 24px;
+}
+
+footer h2{
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: -0.47px;
+}
+
+footer p{
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.18px;
+  color: #A1A1AA
+}
+
 .social-list{
   display: flex;
   justify-content: space-around;
 }
 
 .social-list li{
+  padding-top: 24px;
   margin: 0 10px;
 }
 
 .social-list li a{
   font-size: 30px;
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -110,8 +137,8 @@ section ul{
   content: '';
   position: absolute;
   z-index: -1;
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   background: linear-gradient(45deg,  #12c2e9, #c471ed, #f64f99);
   transform: scale(1);

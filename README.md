@@ -1,17 +1,19 @@
-#NLW Esports
+# NLW Esports
+
+![preview](./img/myfoto/web.jpg)
 
 > Trilha Explore
 
 Projeto Construido no evento Next Level Week do Rocketseat.
 
-[Clique aui para acessar:](http://)
+[Clique aui para acessar:](https://thiago-santos-sousa.github.io/NewLinkTree/)
 
-## 	U+2699 Tecnologias
+## 	Tecnologias
 
 -HTML
 -CSS
 -Git e Github
 
-## 	U+1F49C Contato
+## 	Contato
 
 tthiagnho@gmail.com
